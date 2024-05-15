@@ -55,19 +55,19 @@ function App() {
       <header>
         <Navbar
           className="d-flex flex-column align-items-stretch p-2 pb-0 mb-3"
-          bg="dark"
+          bg="black"
           variant="dark"
           expand="lg"
         >
           <div className="d-flex justify-content-between align-items-center">
             <LinkContainer to="/" className="header-link">
-              <Navbar.Brand>amazona</Navbar.Brand>
+              <Navbar.Brand>Catching up again but in E-commerce</Navbar.Brand>
             </LinkContainer>
             <SearchBox />
 
             <Navbar.Collapse>
               <Nav className="w-100 justify-content-end">
-                <Link
+                {/* <Link
                   to="#"
                   className="nav-link header-link"
                   onClick={switchModeHandler}
@@ -76,7 +76,7 @@ function App() {
                     className={mode === 'light' ? 'fa fa-sun' : 'fa fa-moon'}
                   ></i>{' '}
                   {mode === 'light' ? 'Light' : 'Dark'}
-                </Link>
+                </Link> */}
 
                 {userInfo ? (
                   <NavDropdown
